@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-void print(std::string str, int fg, int bg, int deco);
-void println(std::string str, int fg, int bg, int deco);
+void print(std::string str, int fg=37, int bg=30, int deco=0);
+void println(std::string str, int fg=37, int bg=30, int deco=0);
 
 #endif
