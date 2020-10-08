@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+//FG
 #define BLACKFG 30
 #define REDFG 31
 #define GREENFG 32
@@ -19,6 +20,33 @@
 #define BMAGENTAFG 95
 #define BCYANFG 96
 #define BWHITEFG 97
+//BG
+#define BLACKBG 40
+#define REDBG 41
+#define GREENBG 42
+#define YELLOWBG 43
+#define BLUEBG 44
+#define MAGENTABG 45
+#define CYANBG 46
+#define WHITEBG 47
+#define BBLACKBG 100
+#define BREDBG 101
+#define BGREENBG 102
+#define BYELLOWBG 103
+#define BBLUEBG 104
+#define BMAGENTABG 105
+#define BCYANBG 106
+#define BWHITEBG 107
+//STYLE
+#define BASIC 0
+#define BOLD 1
+#define GREYED 2
+#define ITALIC 3
+#define UNDERLINE 4
+#define BLINK 5
+#define NEGATIF 7
+#define HIDE 8
+#define CROSS 9
 
 void print(std::string str, int fg=37, int bg=30, int deco=0);
 void println(std::string str, int fg=37, int bg=30, int deco=0);
