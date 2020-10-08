@@ -48,7 +48,7 @@
 #define HIDE 8
 #define CROSS 9
 
-void print(std::string str, int fg=37, int bg=30, int deco=0);
-void println(std::string str, int fg=37, int bg=30, int deco=0);
+void print(std::string str, int fg=37, int bg=40, int deco=0);
+void println(std::string str, int fg=37, int bg=40, int deco=0);
 
 #endif
