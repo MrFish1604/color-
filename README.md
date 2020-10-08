@@ -19,7 +19,3 @@ View colorspp.h for availables colors and styles.
 println("Hello world !", REDFG, BLACKBG, BLINK);
 ```
 outputs "Hello world !" blinking in red.
-=======
-#C++ librairie to print text in color
-------------------------------------
-##testMD
