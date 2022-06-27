@@ -2,7 +2,7 @@
 --------------------------------------
 
 ## How to use
-Just import colorspp.h and print something with
+Import colorspp.h and print something with
 
 ```cpp
 void print(std::string str, int fg=37, int bg=30, int deco=0);
