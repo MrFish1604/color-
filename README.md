@@ -11,7 +11,7 @@ sudo make install
 
 ## How to use ?
 Include colorspp.h
-```
+```cpp
 #include <colorspp.h> 
 ```
 
