@@ -1,4 +1,4 @@
-# C++ librairie to print text in color
+# C++ librairy to print text in color
 --------------------------------------
 
 ## How to install ?
