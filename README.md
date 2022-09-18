@@ -24,7 +24,7 @@ std::string color(std::string str, int fg=37, int bg=40, int deco=0);
 ## Available parameters
 View colorspp.h for availables colors and styles.
 
-### Examples
+## Examples
 ```cpp
 println("Hello world !", GREENFG, WHITEBG, ITALIC);
 ```
