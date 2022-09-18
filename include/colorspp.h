@@ -2,6 +2,7 @@
 #define COLORSPP_H
 
 #include <iostream>
+#include <sstream>
 
 //FG
 #define BLACKFG 30
@@ -44,11 +45,14 @@
 #define ITALIC 3
 #define UNDERLINE 4
 #define BLINK 5
+#define BLINK6 6
 #define NEGATIF 7
 #define HIDE 8
 #define CROSS 9
 
 void print(std::string str, int fg=37, int bg=40, int deco=0);
 void println(std::string str, int fg=37, int bg=40, int deco=0);
+
+std::string color(std::string str, int fg=37, int bg=40, int deco=0);
 
 #endif
