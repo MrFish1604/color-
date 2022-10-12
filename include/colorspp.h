@@ -53,6 +53,8 @@
 void print(std::string str, int fg=37, int bg=40, int deco=0);
 void println(std::string str, int fg=37, int bg=40, int deco=0);
 
-std::string color(std::string str, int fg=37, int bg=40, int deco=0);
+std::string color(std::string str, int fg);
+std::string color(std::string str, int fg, int bg);
+std::string color(std::string str, int fg, int bg, int deco);
 
 #endif

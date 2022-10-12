@@ -16,3 +16,17 @@ std::string color(std::string str, int fg, int bg, int deco)
 	ss << "\033[" << deco << ';' << bg << ';' << fg << 'm' << str << "\033[0m";
 	return ss.str();
 }
+
+std::string color(std::string str, int fg, int bg)
+{
+	std::stringstream ss("");
+	ss << "\033[" << bg << ';' << fg << 'm' << str << "\033[0m";
+	return ss.str();
+}
+
+std::string color(std::string str, int fg)
+{
+	std::stringstream ss("");
+	ss << "\033[" << ';' << fg << 'm' << str << "\033[0m";
+	return ss.str();
+}
